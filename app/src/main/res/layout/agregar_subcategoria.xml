@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2A4689">
+
+    <ScrollView
+        android:id="@+id/sl3"
+        android:layout_width="341dp"
+        android:layout_height="728dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/contenedor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cabezilla"
+                android:layout_width="match_parent"
+                android:layout_height="173dp">
+
+                <ImageView
+                    android:id="@+id/imv_blue"
+                    android:layout_width="338dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/btn_top_blue"
+                    android:backgroundTint="#2E4DA4"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <ImageView
+                    android:layout_width="121dp"
+                    android:layout_height="92dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@drawable/logo_kgm" />
+
+                <TextView
+                    android:id="@+id/idub"
+                    android:layout_width="272dp"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/agg_subategoria_title"
+                    android:textAlignment="center"
+                    android:textColor="#f1cb0b"
+                    android:textSize="28sp"
+                    android:textStyle="bold|italic"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.679" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cuerpo"
+                android:layout_width="match_parent"
+                android:layout_height="481dp"
+                android:background="@drawable/text_edit_white"
+                android:backgroundTint="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.381">
+
+                <LinearLayout
+                    android:id="@+id/from_subcategori"
+                    android:layout_width="302dp"
+                    android:layout_height="156dp"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.101">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txtcodigo_id"
+                            android:layout_width="172dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/id_subcategoria"
+                            android:textColor="#4D5358"
+                            android:textSize="13dp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/aditCodeProduct"
+                            android:layout_width="wrap_content"
+                            android:layout_height="32dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="#96A2AB"
+                            android:ems="10"
+                            android:inputType="number"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txt_nombre_subc"
+                            android:layout_width="174dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/name_subcategoria"
+                            android:textColor="#4D5358"
+                            android:textSize="13dp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/addNameProduct"
+                            android:layout_width="wrap_content"
+                            android:layout_height="34dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="#3F51B5"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txt_date"
+                            android:layout_width="169dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/date_subcategoria"
+                            android:textColor="#4D5358"
+                            android:textSize="13dp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/addValueProduct"
+                            android:layout_width="wrap_content"
+                            android:layout_height="33dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="#96A2AB"
+                            android:ems="10"
+                            android:inputType="text"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/cantidad_regis"
+                            android:layout_width="171dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/cantidad_subcategoria"
+                            android:textColor="#4D5358"
+                            android:textSize="13dp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/addAmountProduct"
+                            android:layout_width="wrap_content"
+                            android:layout_height="33dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="#96A2AB"
+                            android:ems="10"
+                            android:inputType="date"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/accioned"
+                    android:layout_width="255dp"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/from_subcategori"
+                    app:layout_constraintVertical_bias="0.104">
+
+                    <Button
+                        android:id="@+id/addCancelBtn"
+                        android:layout_width="113dp"
+                        android:layout_height="39dp"
+                        android:layout_gravity="center"
+                        android:backgroundTint="@color/design_default_color_error"
+                        android:text="Cancelar" />
+
+                    <Button
+                        android:id="@+id/addBtn"
+                        android:layout_width="126dp"
+                        android:layout_height="38dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:backgroundTint="@color/purple_500"
+                        android:text="Agregar" />
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

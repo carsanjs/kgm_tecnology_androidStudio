@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1091879464935",
+    "firebase_url": "https://kgmtecnology-ebe3b-default-rtdb.firebaseio.com",
+    "project_id": "kgmtecnology-ebe3b",
+    "storage_bucket": "kgmtecnology-ebe3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091879464935:android:f3d7be4dbad078dc04d742",
+        "android_client_info": {
+          "package_name": "com.example.kgm_tecnology"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1091879464935-elf1t5egknrmb08mv3lsfj7qd1772vch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVb6dhI4WLs_mekUVwslNTHboyxUQ_3vo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1091879464935-elf1t5egknrmb08mv3lsfj7qd1772vch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

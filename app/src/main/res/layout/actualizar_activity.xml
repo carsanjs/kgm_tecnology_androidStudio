@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2A4689">
+
+    <ScrollView
+        android:id="@+id/sl3"
+        android:layout_width="375dp"
+        android:layout_height="711dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="254dp">
+
+                <ImageView
+                    android:id="@+id/imv_blue"
+                    android:layout_width="372dp"
+                    android:layout_height="168dp"
+                    android:background="@drawable/btn_top_blue"
+                    android:backgroundTint="#2E4DA4"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.333"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <ImageView
+                    android:id="@+id/img_logo"
+                    android:layout_width="125dp"
+                    android:layout_height="85dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.091"
+                    app:srcCompat="@drawable/logo_kgm" />
+
+                <TextView
+                    android:id="@+id/idub"
+                    android:layout_width="215dp"
+                    android:layout_height="46dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Editar producto"
+                    android:textAlignment="center"
+                    android:textColor="#f1cb0b"
+                    android:textSize="30sp"
+                    android:textStyle="bold|italic"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.496"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.483" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName3"
+                    android:layout_width="303dp"
+                    android:layout_height="43dp"
+                    android:background="@drawable/text_edit_white"
+                    android:drawableEnd="@drawable/icono_search"
+                    android:elevation="3dp"
+                    android:ems="10"
+                    android:hint="Actualizar...."
+                    android:inputType="textPersonName"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#7a7a7a"
+                    android:textStyle="bold|italic"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.915" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/contalaya_principal"
+                android:layout_width="357dp"
+                android:layout_height="449dp"
+                android:layout_gravity="center"
+                android:background="@drawable/text_edit_white"
+                android:backgroundTint="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.381">
+
+                <LinearLayout
+                    android:id="@+id/from_subcategori"
+                    android:layout_width="317dp"
+                    android:layout_height="427dp"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.491"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.236">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="180dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Categoria"
+                            android:textColor="#4D5358"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/uptCategory"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:hint="Categoria"
+                            android:inputType="textPersonName"
+                            android:textColor="@color/black"
+                            android:textColorHint="#ADB8BF" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="59dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txtcodigo_id"
+                            android:layout_width="172dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/codigo_producto"
+                            android:textColor="#4D5358"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/uptCode"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:backgroundTint="#96A2AB"
+                            android:ems="10"
+                            android:hint="@string/codigo_producto"
+                            android:inputType="textPersonName"
+                            android:textColor="@color/black"
+                            android:textColorHint="#ADB8BF" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="59dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txt_nombre_subc"
+                            android:layout_width="174dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/name_producto"
+                            android:textColor="#4D5358"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/uptName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:backgroundTint="#96A2AB"
+                            android:ems="10"
+                            android:hint="@string/name_producto"
+                            android:inputType="textPersonName"
+                            android:textColor="@color/black"
+                            android:textColorHint="#ADB8BF" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="66dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txt_date"
+                            android:layout_width="169dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/cantidad_dispo_product"
+                            android:textColor="#4D5358"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/uptAmount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:backgroundTint="#96A2AB"
+                            android:ems="10"
+                            android:hint="@string/cantidad_dispo_product"
+                            android:inputType="date"
+                            android:textColor="@color/black"
+                            android:textColorHint="#ADB8BF" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="61dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/cantidad_regis"
+                            android:layout_width="171dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/Precio_para_clinetes"
+                            android:textColor="#4D5358"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/uptPrice"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:backgroundTint="#96A2AB"
+                            android:ems="10"
+                            android:hint="@string/Precio_para_clinetes"
+                            android:inputType="number"
+                            android:textColor="@color/black"
+                            android:textColorHint="#ADB8BF" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txt_img"
+                            android:layout_width="163dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/Valor_producto"
+                            android:textColor="#4D5358"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/uptValue"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:backgroundTint="#96A2AB"
+                            android:ems="10"
+                            android:hint="@string/Valor_producto"
+                            android:inputType="numberDecimal"
+                            android:textColor="@color/black"
+                            android:textColorHint="#ADB8BF" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="277dp"
+                        android:layout_height="73dp"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/bntcancel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="5dp"
+                            android:backgroundTint="@color/design_default_color_error"
+                            android:text="Cancelar" />
+
+                        <Button
+                            android:id="@+id/uptUpdateBtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="5dp"
+                            android:backgroundTint="@color/purple_500"
+                            android:text="Actualizar" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

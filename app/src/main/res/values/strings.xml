@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">KGM_TECNOLOGY</string>
+    <string name="register">Registrarse</string>
+    <string name="title_inicio">KGM Tecnology y variedades</string>
+    <string name="iniciar_Sesion">Iniciar Sesión</string>
+    <string name="mensaj_title_incio">Aqui encontraras todo lo relacionado con la tecnologia, hay muchas cosas que te encantaran ver</string>
+    <string name="name_propietary">Kevin Gonzales</string>
+    <string name="correo_propietary">kevingonzalesm@gmail.com</string>
+    <string name="alerta_producto">Kevin se nos agotan los vappers</string>
+    <string name="rgistro">Registro</string>
+    <string name="bodega">Bodega</string>
+    <string name="verlista">Ver Lista</string>
+    <string name="aj_perfil">Ajuste perfil</string>
+    <string name="ajuste">Ajuste</string>
+    <string name="soporte">Soporte</string>
+    <string name="inicio">Inicio</string>
+    <string name="r_cuenta">Registrar una cuenta</string>
+    <string name="nombre">Nombre</string>
+    <string name="name_producto">Nombre Producto</string>
+    <string name="codigo_producto">Codigo Producto</string>
+    <string name="Valor_producto">Valor Unitario</string>
+    <string name="cantidad_dispo_product">Cantidad Disponible</string>
+    <string name="Precio_para_clinetes">Precio Estimado de</string>
+
+    <string name="gmail">Correo Electronico</string>
+    <string name="pass">Contraseña</string>
+    <string name="regis">Registrarse</string>
+    <string name="sub_c">Sub Categorias</string>
+
+
+    <string name="descrp">Descripcion</string>
+    <string name="agg_categoria">Agregar</string>
+    <string name="agg_categoria_title">Agregar Categoria</string>
+    <string name="agg_subategoria_title">Agregar SubCategoria</string>
+    <string name="id_categoria">Codigo ID</string>
+    <string name="name_categoria">Nombre Categoria</string>
+    <string name="descrp_categoria">Descripcion</string>
+    <string name="Fecha_categoria">Fecha Creacion</string>
+    <string name="img_categoria">Imagen</string>
+
+    <string name="edit_img">Editar</string>
+    <string name="eliminar_img">Eliminar</string>
+
+    <string name="id_subcategoria">Codigo ID</string>
+    <string name="name_subcategoria">Nombre SubCategoria</string>
+    <string name="date_subcategoria">Fecha Creacion</string>
+    <string name="cantidad_subcategoria">Cantidad</string>
+
+    <string name="facebook_app_id">tu_facebook_app_id</string>
+    <string name="fb_login_protocol_scheme">fbtu_facebook_app_id</string>
+</resources>

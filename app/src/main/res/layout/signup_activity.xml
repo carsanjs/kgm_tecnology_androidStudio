@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#213C8D">
+
+    <ScrollView
+        android:layout_width="346dp"
+        android:layout_height="660dp"
+        android:background="#2A4689"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="168dp"
+                    android:layout_height="174dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/logo_kgm" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/r_cuenta"
+                android:textAlignment="center"
+                android:textColor="#EA4D27"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/codigo"
+                android:layout_width="277dp"
+                android:layout_height="51dp"
+                android:background="@drawable/grey_edit"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Codigo"
+                android:inputType="text"
+                android:textColorHint="#636363" />
+
+            <EditText
+                android:id="@+id/signupName"
+                android:layout_width="277dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/grey_edit"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/nombre"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHint="#636363"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/signupEmail"
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/grey_edit"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/gmail"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHint="#636363"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/signupPassword"
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/grey_edit"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/pass"
+                android:inputType="textPersonName|textPassword"
+                android:minHeight="48dp"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHint="#636363"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnSignup"
+                style="@android:style/Widget.Button"
+                android:layout_width="131dp"
+                android:layout_height="41dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/text_edit_white"
+                android:backgroundTint="@color/purple_500"
+                android:text="@string/register"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="7dp"
+                android:gravity="center"
+                android:text="Ya tienes cuenta?"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnLoginBack"
+                android:layout_width="211dp"
+                android:layout_height="47dp"
+                android:background="@drawable/text_edit_white"
+                android:backgroundTint="@color/purple_500"
+                android:text="@string/iniciar_Sesion"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
